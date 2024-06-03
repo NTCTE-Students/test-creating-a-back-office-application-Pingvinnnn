@@ -87,7 +87,7 @@ Route::screen('roles', RoleListScreen::class)
 // Example...
 Route::screen('example', ExampleScreen::class)
     ->name('platform.example')
-    ->breadcrumbs(fn (Trail $trail) => $trail
+    ->breadcrumbs(fn (Trail $trail) => $trailproducts
         ->parent('platform.index')
         ->push('Example Screen'));
 
